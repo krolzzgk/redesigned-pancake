@@ -29,7 +29,7 @@ public class CalculaMedia {
     
     public double getMedia(){
         while (scanner.hasNext()) {
-            String linha = scanner.next();
+            scanner.next();
             nota = scanner.nextDouble();
             notas.add(nota);
         }
